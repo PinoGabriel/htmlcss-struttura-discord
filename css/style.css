@@ -9,7 +9,7 @@ header {
     padding-top: 25px;
 }
 
-.container {
+.nav-bar {
     margin: 0 auto;
     width: 80%;
     height: 70px;
@@ -45,14 +45,14 @@ header {
     padding: 0 15px;
 }
 
-.container1 {
+.sfondo-blu {
     display: flex;
     height: 600px;
     background-color: #00008b;
     padding: 25px 0 25px 0;
 }
 
-.container2 {
+.blocco-fucsia {
     width: 60%;
     margin: 25px auto;
     display: flex;
@@ -60,14 +60,14 @@ header {
     background-color: #ee82ee;
 }
 
-.container3 {
+.sfondo-bianco {
     display: flex;
     height: 600px;
     background-color: white;
     padding: 25px 0 25px 0;
 }
 
-.container4 {
+.blocco-azzurro-sinistra {
     width: 50%;
     margin: 25px 0 25px auto;
     display: flex;
@@ -75,7 +75,7 @@ header {
     background-color:#1e90ff;
 }
 
-.container5 {
+.blocco-rosa-destra {
     width: 30%;
     margin: 25px auto 25px 0;
     display: flex;
@@ -83,14 +83,14 @@ header {
     background-color: #ffc0cb;
 }
 
-.container6 {
+.sfondo-grigio {
     display: flex;
     height: 600px;
     background-color: #d3d3d3;
     padding: 25px 0 25px 0;
 }
 
-.container7 {
+.blocco-rosa-sinistra {
     width: 30%;
     margin: 25px 0 25px auto;
     display: flex;
@@ -98,10 +98,66 @@ header {
     background-color: #ffc0cb;
 }
 
-.container8 {
+.blocco-azzurro-destra {
     width: 50%;
     margin: 25px auto 25px 0;
     display: flex;
     align-items: center;
     background-color: #1e90ff;
+}
+
+.sfondo-grigio-dimensione {
+    display: flex;
+    height: 1000px;
+    background-color: #d3d3d3;
+    padding: 25px 0 25px 0;
+}
+
+.blocco-verde {
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    background-color: #228b22;
+}
+
+.sfondo-nero {
+    display: flex;
+    height: 600px;
+    background-color: #23272a;
+    padding: 5px 0 25px 0;
+}
+
+.container {
+    background-color: #f08080;
+    width: 20%;
+    display: flex;
+    margin: 0 0 25px auto;
+}
+
+.flex-container {
+    width: 60%;
+    display: flex;
+    margin: 0 auto 25px 0;
+}
+
+.flex-items {
+    background-color: #20b2aa;
+    width: 25%;
+}
+
+.sfondo-nero-dimensione {
+    display: flex;
+    height: 200px;
+    background-color: #23272a;
+    padding: 25px 0 0px 0;
+}
+
+.blocco-finale {
+    background-color: #7fffd4;
+    width: 80%;
+    margin: 25px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
