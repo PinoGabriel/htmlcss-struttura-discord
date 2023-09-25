@@ -1,8 +1,19 @@
+/******** INIZIO CSS GENERICHE ********/
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+
+.flex {
+    display: flex;
+}
+
+/******** FINE CSS GENERICHE ********/
+
+
+/******** INIZIO CSS HEADER ********/
 
 header {
     background-color: #add8e6;
@@ -14,13 +25,11 @@ header {
     width: 80%;
     height: 70px;
     background-color: #daa520;
-    display: flex;
     align-items: center;
     margin-bottom: 25px;
 }
 
 .logo, .menu, .login {
-    display: flex;
     padding: 16px;
 }
 
@@ -46,7 +55,6 @@ header {
 }
 
 .sfondo-blu {
-    display: flex;
     height: 600px;
     background-color: #00008b;
     padding: 25px 0 25px 0;
@@ -55,13 +63,15 @@ header {
 .blocco-fucsia {
     width: 60%;
     margin: 25px auto;
-    display: flex;
     align-items: center;
     background-color: #ee82ee;
 }
 
+/******** FINE CSS HEADER ********/
+
+
+/******** INIZIO CSS MAIN ********/
 .sfondo-bianco {
-    display: flex;
     height: 600px;
     background-color: white;
     padding: 25px 0 25px 0;
@@ -70,7 +80,6 @@ header {
 .blocco-azzurro-sinistra {
     width: 50%;
     margin: 25px 0 25px auto;
-    display: flex;
     align-items: center;
     background-color:#1e90ff;
 }
@@ -78,13 +87,11 @@ header {
 .blocco-rosa-destra {
     width: 30%;
     margin: 25px auto 25px 0;
-    display: flex;
     align-items: center;
     background-color: #ffc0cb;
 }
 
 .sfondo-grigio {
-    display: flex;
     height: 600px;
     background-color: #d3d3d3;
     padding: 25px 0 25px 0;
@@ -93,7 +100,6 @@ header {
 .blocco-rosa-sinistra {
     width: 30%;
     margin: 25px 0 25px auto;
-    display: flex;
     align-items: center;
     background-color: #ffc0cb;
 }
@@ -101,13 +107,11 @@ header {
 .blocco-azzurro-destra {
     width: 50%;
     margin: 25px auto 25px 0;
-    display: flex;
     align-items: center;
     background-color: #1e90ff;
 }
 
 .sfondo-grigio-dimensione {
-    display: flex;
     height: 1000px;
     background-color: #d3d3d3;
     padding: 25px 0 25px 0;
@@ -116,13 +120,15 @@ header {
 .blocco-verde {
     width: 80%;
     margin: 25px auto;
-    display: flex;
     align-items: center;
     background-color: #228b22;
 }
 
+/******** FINE CSS MAIN ********/
+
+
+/******** INIZIO CSS FOOTER ********/
 .sfondo-nero {
-    display: flex;
     height: 600px;
     background-color: #23272a;
     padding: 5px 0 25px 0;
@@ -131,13 +137,11 @@ header {
 .container {
     background-color: #f08080;
     width: 20%;
-    display: flex;
     margin: 0 0 25px auto;
 }
 
 .flex-container {
     width: 60%;
-    display: flex;
     margin: 0 auto 25px 0;
 }
 
@@ -147,7 +151,6 @@ header {
 }
 
 .sfondo-nero-dimensione {
-    display: flex;
     height: 200px;
     background-color: #23272a;
     padding: 25px 0 0px 0;
@@ -157,7 +160,8 @@ header {
     background-color: #7fffd4;
     width: 80%;
     margin: 25px auto 0 auto;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+/******** FINE CSS FOOTER ********/
