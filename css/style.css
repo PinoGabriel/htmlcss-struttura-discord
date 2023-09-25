@@ -164,4 +164,13 @@ header {
     justify-content: space-between;
 }
 
+.logo-finale {
+    background-color: #f08080;
+}
+
+button {
+    border: none;
+    background-color: #f08080;
+}
+
 /******** FINE CSS FOOTER ********/
